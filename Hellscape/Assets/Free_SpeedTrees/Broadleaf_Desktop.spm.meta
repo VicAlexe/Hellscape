@@ -4,16 +4,16 @@ timeCreated: 1452616721
 licenseType: Store
 SpeedTreeImporter:
   serializedVersion: 4
-  mainColor: {r: 0.41911763, g: 0.41911763, b: 0.41911763, a: 1}
-  hueVariation: {r: 0.22794116, g: 0.22794116, b: 0.22794116, a: 0.1}
-  alphaTestRef: 0.33
+  mainColor: {r: 0.6691177, g: 0.6691177, b: 0.6691177, a: 1}
+  hueVariation: {r: 0, g: 0, b: 0, a: 0.1}
+  alphaTestRef: 0.368
   bestWindQuality: 4
   hasBillboard: 1
   lODSettings:
   - height: 0.5
     castShadows: 1
     receiveShadows: 1
-    useLightProbes: 1
+    useLightProbes: 0
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1

@@ -60,10 +60,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - _AtmosphereThickness: 0.9596142
 =======
     - _AtmosphereThickness: 1.2880989
 >>>>>>> 8bfc2e5c168451f7e3b2bd4d9d1271e4297bf0ce
+=======
+    - _AtmosphereThickness: 0.8633778
+>>>>>>> parent of 8bfc2e5... Chestii cu lumina si mai multa ierbuta
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

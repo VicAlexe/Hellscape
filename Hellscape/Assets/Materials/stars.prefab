@@ -10,7 +10,7 @@ GameObject:
   - component: {fileID: 496466}
   - component: {fileID: 19869660}
   - component: {fileID: 19978354}
-  - component: {fileID: 11492262}
+  - component: {fileID: 114608256726329664}
   m_Layer: 8
   m_Name: stars
   m_TagString: Untagged
@@ -24,31 +24,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181504}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.26625657, y: 0, z: 0, w: 0.9639022}
   m_LocalPosition: {x: 22.363, y: 3.4391, z: -0.62425}
   m_LocalScale: {x: 2.3559456, y: 2.3559465, z: 2.3559465}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11492262
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 181504}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1347817507220a4384f3ff6f7c24546, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveUnitsPerSecond:
-    value: {x: 0, y: 0, z: 0}
-    space: 1
-  rotateDegreesPerSecond:
-    value: {x: -2, y: 0, z: 0}
-    space: 1
-  ignoreTimescale: 0
 --- !u!198 &19869660
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -106,7 +88,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: -719327408
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3177,7 +3159,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f837cafb62acae94bb5a0108604baece, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -3225,3 +3207,21 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 181504}
   m_IsPrefabParent: 1
+--- !u!114 &114608256726329664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32cbd1f13b033f4095bf98553ab6157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveUnitsPerSecond:
+    value: {x: 0, y: 0, z: 0}
+    space: 1
+  rotateDegreesPerSecond:
+    value: {x: 0, y: 0, z: 0}
+    space: 1
+  ignoreTimescale: 0
